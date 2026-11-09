@@ -4,7 +4,10 @@ Preview only — mint is disabled, no contracts are deployed.
 
 - Supply 6,666 (free 2,260 + paid 4,406 @ 0.009 HYPE flat), max 11/wallet, fuse 3→1
 - Tiers: Drop Tone / Ripple Chord / Wave Harmony / Tide Boom
+- Bonus token SONO: 12,000 per paid mint, max 120,000/wallet (free mints earn none)
+- Marketplace: placeholder section only — no contract, no listings yet
 - Mint public via Bitget / MetaMask / Rabby — no Agent ID gate on Elysium
+- Official X: @Sonofluidic — https://x.com/Sonofluidic
 
 Single-file site: `index.html` with the 4 tier artworks inlined as data URIs
 (the GitHub connector cannot push binary files, so the images live inside the
