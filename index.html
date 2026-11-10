@@ -371,7 +371,7 @@ code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(
         <div class="codebox" id="freePrompt"></div>
         <p class="fine" style="margin-top:8px">Paste this prompt to your Binance Agentic Wallet. It simulates first — then executes after you confirm.</p>
       </div>
-      <p class="fine" style="margin-top:10px"><b>Preview note:</b> the SonoWaves contract address in these prompts (<code>0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde</code>) is a <b>predicted address — the contract is NOT deployed yet and mint is NOT open</b>. These prompts are the launch-day templates; they will only work after deploy and the mint-open announcement in UTC on <a href="https://x.com/Sonofluidic" target="_blank" rel="noopener">@Sonofluidic</a>.</p>
+      <p class="fine" style="margin-top:10px"><b>Preview note:</b> the SonoWaves contract address in these prompts (<code>0x8D8d7A02f7d02C6FbADc33e5Efd7cCaC7a2C8a6b</code>) is a <b>predicted address — the contract is NOT deployed yet and mint is NOT open</b>. These prompts are the launch-day templates; they will only work after deploy and the mint-open announcement in UTC on <a href="https://x.com/Sonofluidic" target="_blank" rel="noopener">@Sonofluidic</a>.</p>
 
       <h3 style="font-size:16px;margin:22px 0 6px">Check your Agent ID</h3>
       <p class="fine" style="margin-bottom:10px">Paste your Agentic Wallet address. The page reads BNB Smart Chain (the SPACE ID Agent ID registry) to see if it holds an Agent ID — no wallet connection needed.</p>
@@ -423,9 +423,9 @@ code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(
     <div class="netrow"><span class="k">EXPLORER</span><span class="v">https://bscscan.com</span><button class="cp" type="button" data-copy="https://bscscan.com">Copy</button></div>
     <h3 style="font-size:16px;margin:18px 0 8px">Predicted contract addresses — NOT DEPLOYED</h3>
     <p class="fine" style="margin-bottom:10px">These are the <b>predicted</b> addresses from the 0.0007 BNB contract rebuild. <b>None of them is deployed yet</b> — do not send funds to them. They will be confirmed here and verified on bscscan.com after deploy.</p>
-    <div class="netrow"><span class="k">NFT</span><span class="v">0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde</span><button class="cp" type="button" data-copy="0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde">Copy</button></div>
-    <div class="netrow"><span class="k">SONO</span><span class="v">0x065e7124e520F21bB61Cc3D167bEEF90c0DF094b</span><button class="cp" type="button" data-copy="0x065e7124e520F21bB61Cc3D167bEEF90c0DF094b">Copy</button></div>
-    <div class="netrow"><span class="k">MARKET</span><span class="v">0x6f38ede910BE54dAe5b039c4441DBa864efcb447</span><button class="cp" type="button" data-copy="0x6f38ede910BE54dAe5b039c4441DBa864efcb447">Copy</button></div>
+    <div class="netrow"><span class="k">NFT</span><span class="v">0x8D8d7A02f7d02C6FbADc33e5Efd7cCaC7a2C8a6b</span><button class="cp" type="button" data-copy="0x8D8d7A02f7d02C6FbADc33e5Efd7cCaC7a2C8a6b">Copy</button></div>
+    <div class="netrow"><span class="k">SONO</span><span class="v">0x0D7f8dCEaDaC713F02AFCa86850F17f1f37f65BE</span><button class="cp" type="button" data-copy="0x0D7f8dCEaDaC713F02AFCa86850F17f1f37f65BE">Copy</button></div>
+    <div class="netrow"><span class="k">MARKET</span><span class="v">0xA9C1E5d2bDBac57C650CBE93a5B85350042cc9ba</span><button class="cp" type="button" data-copy="0xA9C1E5d2bDBac57C650CBE93a5B85350042cc9ba">Copy</button></div>
     <h3 style="font-size:16px;margin:18px 0 8px">Free mint — Agent ID</h3>
     <p class="fine">The free mint (<b>mintFree()</b>) is checked on-chain against your <b>SPACE ID Agent ID</b> and is claimed through the <b>Binance Agentic Wallet</b>. Paid mints (<b>mintPaid()</b>) are public and work from any EVM wallet on BNB Smart Chain. Gas for every transaction is paid in <b>BNB</b> — no bridge, no wrapped token, just hold a little BNB in the wallet you mint from.</p>
   </section>
@@ -511,7 +511,7 @@ if(burgerBtn&&mainNav){
 
 /* ---- paid qty stepper (preview calculator) ---- */
 var paidQty=1,MAX_PAID=10,PRICE_BNB=0.0007;
-var SONOWAVES_NFT="0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde"; /* PREDICTED — not deployed yet */
+var SONOWAVES_NFT="0x8D8d7A02f7d02C6FbADc33e5Efd7cCaC7a2C8a6b"; /* PREDICTED — not deployed yet */
 function fmtBNB(x){var s=x.toFixed(4);if(s.indexOf(".")>-1){s=s.replace(/0+$/,"").replace(/\.$/,"");}return s;}
 function buildPaidPrompt(n){
   var total=fmtBNB(n*PRICE_BNB);
