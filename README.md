@@ -2,7 +2,7 @@
 
 Preview only — mint is disabled, no contracts are deployed.
 
-- Supply 6,666 (free 2,260 for Agent ID holders + paid 4,406 @ 0.001 BNB flat), max 11/wallet, fuse 3→1
+- Supply 6,666 (free 2,260 for Agent ID holders + paid 4,406 @ 0.0007 BNB flat), max 11/wallet, fuse 3→1
 - Tiers: Drop Tone / Ripple Chord / Wave Harmony / Tide Boom
 - Bonus token SONO: 12,000 per paid mint, max 120,000/wallet (free mints earn none)
 - Mint via Binance Agentic Wallet + Agent ID (free lane Agent ID-only; paid lane public)
