@@ -6,13 +6,11 @@ SPACE ID `.ai` Agent ID, via their Binance Agentic Wallet); the PAID mints are
 **public** — anyone can mint them with a wallet on the mint page, or via the
 paid agent prompt, using `mintPaid(uint256)` at a flat 0.0007 BNB each.
 
-⚠️ **PREVIEW — DO NOT MINT YET.** The NFT contract address below is a CREATE2
-**prediction**, not a deployed contract. There is no code at this address yet.
-If the NFT contract has no code, mint is NOT open — stop and tell the user.
-Simulate only; execute only after the contract is deployed and `mintOpen()`
-reads true.
+✅ **MINT IS OPEN.** Mint opened 11:18 UTC, 10 Nov 2026. Before executing,
+confirm the NFT contract has code and `mintOpen()` reads true; if either check
+fails, stop and tell the user. Simulate first, then execute.
 
-## Contracts (PREDICTED — NOT DEPLOYED)
+## Contracts (DEPLOYED — BSC mainnet)
 
 - NFT (SonoWaves): `0x8D8d7A02f7d02C6FbADc33e5Efd7cCaC7a2C8a6b`
 - Bonus token (SONO): `0x0D7f8dCEaDaC713F02AFCa86850F17f1f37f65BE`
@@ -35,8 +33,8 @@ reads true.
 1. Confirm the user's wallet holds a .ai Agent ID:
    `balanceOf(<wallet>)` on the registry above must be > 0.
 2. Confirm the contract is deployed AND mint is open: the NFT contract must
-   have code, and `mintOpen()` on it must be true. If there is no code yet,
-   mint is NOT open — stop and tell the user. Do not execute anything.
+   have code, and `mintOpen()` on it must be true. If either check fails,
+   stop and tell the user. Do not execute anything.
 3. FREE mint (mint #1) — use this prompt:
    "Use my Binance Agentic Wallet on BSC (chain 56) to call mintFree() on the SonoWaves contract 0x8D8d7A02f7d02C6FbADc33e5Efd7cCaC7a2C8a6b and mint my FREE SonoWaves (mint #1, Agent ID required). My wallet holds a .ai Agent ID and has not claimed its free mint yet. Mint is open. Simulate first, then execute."
 4. Paid mints — `mintPaid(n)` for n = 1–10 at 0.0007 BNB each (total n × 0.0007 BNB),
@@ -48,9 +46,10 @@ reads true.
 ## SONO bonus token
 
 - Name SONO, symbol SONO. Bonus only: 12,000 SONO per paid mint, max 120,000 SONO per wallet.
-- SONO is earned by paid minting only — never sold separately by this project, and carries no promise of value. Total supply 1,000,000,000 SONO (fixed): 540,000,000 pool held by the token contract, 460,000,000 treasury to the owner at deploy — confirmed by the user 2026-11-10.
+- SONO is earned by paid minting only — never sold separately by this project, and carries no promise of value.
+- Total supply 1,000,000,000 SONO: 540,000,000 bonus pool / 460,000,000 treasury.
 
 ## Marketplace
 
-- Fixed-price escrow market (0% platform fee, 5% creator royalty), deployed last, after mint opens.
-- The marketplace is not live yet. Do not list or buy until its official link is published on the mint page.
+- Fixed-price escrow market (0% platform fee, 5% creator royalty), deployed at `0xA9C1E5d2bDBac57C650CBE93a5B85350042cc9ba`.
+- The collection is also searchable on Element Market (element.market) by the NFT contract address above.
