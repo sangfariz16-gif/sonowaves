@@ -6,7 +6,7 @@ Preview only — mint is disabled, no contracts are deployed.
 - Tiers: Drop Tone / Ripple Chord / Wave Harmony / Tide Boom
 - Bonus token SONO: 12,000 per paid mint, max 120,000/wallet (free mints earn none)
 - Mint via Binance Agentic Wallet + Agent ID (free lane Agent ID-only; paid lane public)
-- Marketplace: placeholder section only — no contract, no listings yet
+- Marketplace: placeholder section only — no contract, no listings yet. Also listed: Element Market entry (third-party BNB marketplace; collection appears there automatically after deploy, link activates after deploy, no extra contract cost)
 - Official X: @Sonofluidic — https://x.com/Sonofluidic
 
 Single-file site: `index.html` with the 4 tier artworks inlined as data URIs

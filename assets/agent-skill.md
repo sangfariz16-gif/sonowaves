@@ -14,9 +14,9 @@ reads true.
 
 ## Contracts (PREDICTED — NOT DEPLOYED)
 
-- NFT (SonoWaves): `0x91EdeC8F84Fda14C2D6A4b19448EFB178DFFd99b`
+- NFT (SonoWaves): `0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde`
 - Bonus token (SONO): `0x065e7124e520F21bB61Cc3D167bEEF90c0DF094b`
-- Marketplace: `0x1935B9c1bff1Ff65037E4aaE3fDB3f11e40C1b1a`
+- Marketplace: `0x6f38ede910BE54dAe5b039c4441DBa864efcb447`
 - Agent ID registry (SPACE ID): `0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F`
 - Mint page: https://sonowaves.vercel.app/
 
@@ -38,10 +38,10 @@ reads true.
    have code, and `mintOpen()` on it must be true. If there is no code yet,
    mint is NOT open — stop and tell the user. Do not execute anything.
 3. FREE mint (mint #1) — use this prompt:
-   "Use my Binance Agentic Wallet on BSC (chain 56) to call mintFree() on the SonoWaves contract 0x91EdeC8F84Fda14C2D6A4b19448EFB178DFFd99b and mint my FREE SonoWaves (mint #1, Agent ID required). My wallet holds a .ai Agent ID and has not claimed its free mint yet. Mint is open. Simulate first, then execute."
+   "Use my Binance Agentic Wallet on BSC (chain 56) to call mintFree() on the SonoWaves contract 0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde and mint my FREE SonoWaves (mint #1, Agent ID required). My wallet holds a .ai Agent ID and has not claimed its free mint yet. Mint is open. Simulate first, then execute."
 4. Paid mints — `mintPaid(n)` for n = 1–10 at 0.0007 BNB each (total n × 0.0007 BNB),
    each earning 12,000 SONO. Prompt pattern:
-   "Use my Binance Agentic Wallet on BSC (chain 56) to call mintPaid(n) on the SonoWaves contract 0x91EdeC8F84Fda14C2D6A4b19448EFB178DFFd99b and mint n SonoWaves for [n × 0.0007] BNB in total (public mint — no Agent ID needed). Simulate first, then execute."
+   "Use my Binance Agentic Wallet on BSC (chain 56) to call mintPaid(n) on the SonoWaves contract 0xc7E498846B2Ae8b4fA4D78A8E93c2a163dA98cde and mint n SonoWaves for [n × 0.0007] BNB in total (public mint — no Agent ID needed). Simulate first, then execute."
    Simulate first, then execute. Never overpay beyond 0.0007 BNB per wave.
 5. After the mint, report the token ID(s).
 
