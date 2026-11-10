@@ -48,7 +48,7 @@ reads true.
 ## SONO bonus token
 
 - Name SONO, symbol SONO. Bonus only: 12,000 SONO per paid mint, max 120,000 SONO per wallet.
-- SONO is earned by paid minting only — never sold separately by this project, and carries no promise of value. Total supply / pool split is not yet confirmed — do not quote any.
+- SONO is earned by paid minting only — never sold separately by this project, and carries no promise of value. Total supply 1,000,000,000 SONO (fixed): 540,000,000 pool held by the token contract, 460,000,000 treasury to the owner at deploy — confirmed by the user 2026-11-10.
 
 ## Marketplace
 
